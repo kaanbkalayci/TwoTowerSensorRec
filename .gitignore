@@ -21,6 +21,9 @@ Thumbs.db
 .vscode/
 .idea/
 
+# Local reference clones
+.reference-*/
+
 # Data artifacts: keep directory placeholders, ignore heavy/local contents
 data/raw/*
 data/interim/*
@@ -41,4 +44,3 @@ reports/tables/*
 .env
 *.pem
 *.key
-

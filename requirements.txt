@@ -1,0 +1,9 @@
+numpy
+pandas
+matplotlib
+geopandas
+shapely
+soundfile
+scikit-learn
+torch
+
