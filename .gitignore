@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Data artifacts: keep directory placeholders, ignore heavy/local contents
+data/raw/*
+data/interim/*
+data/processed/*
+data/external/*
+!data/**/.gitkeep
+!data/**/README.md
+
+# Experiment/report outputs
+experiments/runs/*
+reports/figures/*
+reports/tables/*
+!experiments/runs/.gitkeep
+!reports/figures/.gitkeep
+!reports/tables/.gitkeep
+
+# Local secrets/config
+.env
+*.pem
+*.key
+
