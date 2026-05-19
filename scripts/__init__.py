@@ -10,6 +10,8 @@ from .dataloader import (
     plot_sensor_map,
 )
 from .processed_feature_builder import (
+    EXPANDED_ACTION_AUDIO_FEATURES,
+    EXPANDED_CONTEXT_AUDIO_FEATURES,
     build_processed_two_tower_data,
     save_processed_two_tower_data,
 )
@@ -29,6 +31,8 @@ __all__ = [
     "build_audio_feature_dataset",
     "build_processed_two_tower_data",
     "compare_on_common_objectives",
+    "EXPANDED_ACTION_AUDIO_FEATURES",
+    "EXPANDED_CONTEXT_AUDIO_FEATURES",
     "evaluate_result_on_utility",
     "export_frozen_embeddings",
     "load_processed_two_tower_data",
