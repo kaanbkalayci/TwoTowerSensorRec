@@ -1,4 +1,4 @@
-# MILCOM Sensor-Subset Experiments
+## Sensor-Subset Experiments
 
 This repo is a local experimentation workspace for selecting small sensor
 subsets near a vehicle using synchronized RSSI, acoustic waveform features, and
